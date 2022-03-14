@@ -6,7 +6,7 @@ const router = express.Router()
 router.get('/', findAll);
 
 // Get single student
-router.get('/:email', findByID);
+router.get('/:id', findByID);
 
 // Create new student
 router.post('/', save);
